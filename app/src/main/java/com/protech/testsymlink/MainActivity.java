@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        Toast.makeText(this, "22 unos", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "28 unos", Toast.LENGTH_SHORT).show();
 
     }
 }
