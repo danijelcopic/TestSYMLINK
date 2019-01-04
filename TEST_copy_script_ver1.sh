@@ -1,6 +1,7 @@
 #!/bin/bash
 
-rm /home/danijel/TestSYMLINK/README.md
+
+touch /home/danijel/TestSYMLINK/Document1.txt
 
 git add .
 git commit -m "Novi commit"
