@@ -4,8 +4,17 @@
 touch /home/danijel/TestSYMLINK/Document1.txt
 
 git add .
-git commit -m "Novi commit"
-git push
+echo 'Enter the commit message:'
+read commitMessage
+
+git commit -m "$commitMessage"
+
+echo 'Enter the name of the branch:'
+read branch
+
+git push origin $branch
+
+read
 
 
 
